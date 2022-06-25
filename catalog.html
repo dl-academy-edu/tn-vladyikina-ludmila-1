@@ -20,7 +20,7 @@
             <img src="images/logo.png" alt="logo">
         </a>
         <nav>
-            <ul>
+            <ul class="marker">
                 <li>
                     <a href="#">Blog</a>
                 </li>
@@ -33,21 +33,13 @@
             </ul>
         </nav>
         <a href="contact.html"><img src="images/magnifying glass.png" alt="magnifying glass"></a>
-        <a href="contact.html">Contact Us</a>
+        <a href="contact.html" class="contact">Contact Us</a>
     </header>
-    <main>
-        <h1>Category Products</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <p>Catalog</p>
-                </li>
-            </ul>
-        </nav>
+    <main>            
         <section>
+            <h1>Category Products</h1>
+            <a href="index.html">Home</a>
+            <p>Catalog</p>  
             <ul>
                 <li>
                     <a href="#">APPAREL KIDS</a>
@@ -82,9 +74,9 @@
     </main>
     <footer class="footer">
         <div>
-            <h3>Navigation</h3>
+            <h3 class="header">Navigation</h3>
             <nav>
-                <ul>
+                <ul class="marker">
                     <li>
                         <a href="#">About Us</a>
                     </li>
@@ -105,9 +97,9 @@
                     </li>
                 </ul>
             </nav>
-            <h3>Customer Information</h3>
+            <h3 class="header">Customer Information</h3>
             <nav>
-                <ul>
+                <ul class="marker">
                     <li>
                         <a href="contact.html">Contact Us</a>
                     </li>
@@ -129,8 +121,8 @@
                 </ul>
             </nav>
             <div>
-                <h3>Connect</h3>
-                <form action="catalog.html">
+                <h3 class="header">Connect</h3>
+                <form action="index.html">
                     <div>
                         <label for="input-email-1"></label>
                         <input type="email" id="input-email-1" placeholder="Email">
@@ -138,7 +130,7 @@
                     </div>
                 </form>
                 <nav>
-                    <ul>
+                    <ul class="marker">
                         <li>
                             <a href="#">
                                 <img src="images/messengers/facebook.png" alt="facebook">
@@ -163,9 +155,9 @@
                 </nav>
             </div>
             <div>
-                <h3>Company Rating</h3>
+                <h3 class="header">Company Rating</h3>
                 <nav>
-                    <ul>
+                    <ul class="marker">
                         <li>
                             <a href="#">
                                 <img src="images/star.png" alt="star">
@@ -193,40 +185,11 @@
                         </li>
                     </ul>
                 </nav>
-                <h3>Copyright © 2018 Dlk • Design Life Kids</h3>
-                <h3>Web Design — Direct Line Development</h3>
+                <p class="header">Copyright © 2018 Dlk • Design Life Kids</p>
+                <a href="#"> Web Design — Direct Line Development</a>
             </div>
     </footer>
-    <section>
-        <h2>Window Model</h2>
-        <form action="contact.html">
-            <div>
-                <label for="input-name">Name</label>
-                <input type="text" id="input-name" placeholder="Ivan Ivanov">
-            </div>
-            <div>
-                <div>
-                    <label for="input-phone">Phone</label>
-                    <input type="tel" id="input-phone">
-                </div>
-                <div>
-                    <label for="input-email">Email</label>
-                    <input type="email" id="input-email">
-                </div>
-            </div>
-            <div>
-                <label for="textarea">Message</label>
-                <textarea name="" id="textarea" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <label class="">
-                    <input type="checkbox" class="">
-                    <span>By clicking on the button, you consent to the processing of your personal data</span>
-                </label>
-            </div>
-            <button class="button-send" type="submit">Submit</button>
-        </form>
-    </section>
+    
 </body>
 
 </html>
