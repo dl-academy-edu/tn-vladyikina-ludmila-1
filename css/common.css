@@ -1,31 +1,56 @@
-body {
-    font-family: 'Open Sans', 'Arial', sans-serif;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
 a {
     text-decoration: none;
 }
 
 .marker {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-header a {
-    color: #1E0606;    
-    font-weight: 400;
+
+.header {
+    display: flex;
+    align-items: center;    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.header-menu {
+    margin: 0 auto 0 25px;
+}
+.header-list {
+    display: flex;    
     font-size: 14px;
     line-height: 19px;
     align-items: center;
-    text-transform: uppercase;     
+    text-transform: uppercase;    
+}
+.header-menu a {
+    color: #1E0606;
+    margin-right: 20px;
 }
 
 header .contact {
     color: #1E0606;    
     font-weight: 700;
-    font-size: 14px;
-    line-height: 19px;
-    align-items: center;
-    text-transform: uppercase;
 }
 
 .button {
@@ -39,6 +64,10 @@ header .contact {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    display: block;
+    width: 161px;
+    border: none;
+    cursor: pointer;
 }
 
 footer {
@@ -47,24 +76,21 @@ footer {
 
 
 footer .header {
-    color: #AAAAAA;
-    font-weight: 400;
+    color: #AAAAAA;    
     font-size: 16px;
     line-height: 22px;
 }
 
 footer a {
-    color: #FFFFFF;    
-    font-weight: 400;
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 22px;    
 }
 
-footer .button-join {
+.button-join {
     background: #000000;
-    height: 40px;
-    width: 81px; 
-    padding: 9px, 22px, 9px, 22px;
+    padding: 9px 22px;
+    gap: 10px;
     color: #FFFFFF;    
     font-weight: 700;
     font-size: 16px;
@@ -72,6 +98,8 @@ footer .button-join {
     align-items: center;
     text-align: center;
     text-transform: uppercase;
+    border: none;
+    cursor: pointer;
 }
 
 .button-send {
@@ -85,4 +113,6 @@ footer .button-join {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    border: none;
+    cursor: pointer;
 }

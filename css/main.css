@@ -1,0 +1,142 @@
+/* banner */
+
+.title {
+    display: flex;  
+    flex-direction: column;
+}
+.banner {
+    background-color: #EEE4DB;
+    display: flex;       
+}
+
+.banner-fhree {     
+    background: #C29974;
+    margin-top: -30px;
+}
+
+.fist {  
+    margin-left: 28px;  
+    margin-top: 30px;  
+    margin-bottom: 10px;
+    font-family: 'Montserrat';    
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(30, 6, 6, 0.05);      
+    width: 61px;
+    height: 74px;    
+}
+.banner-fist {
+    width: 133px;
+}
+.button-banner { 
+    width: 31px;    
+    height: 3px;     
+    background: rgba(30, 6, 6, 0.6);
+    margin-left: 31px;    
+}  
+    
+.banner-wrapper {
+    margin-top: 90px;
+    margin-left: 110px;
+}
+.image {
+   margin-top: -90px ;
+}    
+
+.banner-two {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;       
+    color: #1E0606;
+    text-transform: uppercase; 
+    width: 90%;    
+}
+
+.text {
+font-family: 'Crimson Text';
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #1E0606;
+}
+
+
+.text-2 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;    
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;   
+}
+
+/* products */
+
+.products-header {
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 38px;
+line-height: 46px;
+text-transform: uppercase;
+color: #1E0606;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;    
+    margin: 0 -10px; 
+    
+}
+
+.products-cards a {
+    width: 280px;
+    font-family: 'Montserrat';    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+.products-cards:nth-child(1) {
+    background-color: #DBE4DB;
+    padding: 100px 75px;
+    background-image: url('../images/products/image1.png');
+    background-blend-mode: multiply; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 280px;
+           
+}
+.products-cards:nth-child(2) {
+    background: #EADDD3;
+    padding: 100px 75px;
+    background-image: url('../images/products/image2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 280px;
+   
+      
+}
+.products-cards:nth-child(3) {
+    background: #F8F2DA;
+    padding: 100px 75px;
+    background-image: url('../images/products/image3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 280px;
+}
+    
+.products-cards:nth-child(4) {
+    background: #D5D4E1;
+    padding: 100px 75px;
+    background-image: url('../images/products/image4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 280px;
+   
+}
