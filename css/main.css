@@ -4,18 +4,13 @@
     display: flex;  
     flex-direction: column;
 }
+
 .banner {
     background-color: #EEE4DB;
-    display: flex; 
-        
+    display: flex;         
 }
 
-.banner-bottom {     
-    background: #C29974;
-    margin-top: -30px;
-}
-
-.one {  
+.number {  
     margin-left: 28px;  
     margin-top: 30px;  
     margin-bottom: 10px;
@@ -27,9 +22,11 @@
     width: 61px;
     height: 74px;    
 }
-.banner-one {
+
+.banner-number {
     width: 133px;
 }
+
 .button-banner { 
     width: 31px;    
     height: 3px;     
@@ -43,16 +40,17 @@
     margin-top: 90px;
     margin-left: 110px;
 }
+
 .image {  
     margin-top: -89px;  
-    margin-right: 100px;
+    margin-right: 90px;    
 }
    
 .title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 40px;
-    line-height: 110%;       
+    line-height: 100%;       
     color: #1E0606;
     text-transform: uppercase; 
     width: 90%;    
@@ -65,18 +63,20 @@
     font-size: 20px;
     line-height: 26px;
     color: #1E0606;
+    margin-bottom: 30px;
 }
 
-
 .text-bottom {
+    background: #C29974;
+    margin-top: -30px;
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;    
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;   
+    color: #FFFFFF;  
+    padding: 11px 364px 11px 364px; 
 }
-
 
 /* products */
 
@@ -92,8 +92,7 @@
 .products-list {
     display: flex;
     flex-wrap: wrap;    
-    margin: 0 -10px; 
-    
+    margin: 0 -10px;     
 }
 
 .products-cards a {
@@ -107,70 +106,65 @@
     color: #FFFFFF;
     text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
 }
+
+.products-cards {
+    margin-right: 20px;
+    width: 280px;  
+}
+
 .products-cards:nth-child(1) {
     background: #DBE4DB;
     padding: 100px 75px;
     background-image: url('../images/products/image1.png');
     background-blend-mode: multiply; 
     background-position: center; 
-    background-repeat: no-repeat; 
-    width: 280px;
-    margin-right: 20px;
+    background-repeat: no-repeat;       
 }
+
 .products-cards:nth-child(2) {
     background: #EADDD3;
     padding: 100px 75px;
     background-image: url('../images/products/image2.png');
     background-position: center;
-    background-repeat: no-repeat;
-    width: 280px;
-    margin-right: 20px; 
-      
+    background-repeat: no-repeat;           
 }
+
 .products-cards:nth-child(3) {
     background: #F8F2DA;
     padding: 100px 75px;
     background-image: url('../images/products/image3.png');
     background-position: center;
-    background-repeat: no-repeat;
-    width: 280px;
-    margin-right: 20px;
+    background-repeat: no-repeat;    
 }
+    
     
 .products-cards:nth-child(4) {
     background: #D5D4E1;
     padding: 100px 75px;
     background-image: url('../images/products/image4.png');
     background-position: center;
-    background-repeat: no-repeat;
-    width: 280px; 
-    margin-right: 20px;  
+    background-repeat: no-repeat;    
+} 
+
+.products-list button {   
+    padding: 17px;   
+    margin: 30px 0px 90px 10px;    
+    border: none;
+    cursor: pointer; 
 }
 
-
-.button-control-one {
-    background: #E2F1F8;      
+.button-control-one { 
+    background: #E2F1F8;         
     background-image: url('../images/vector1.png');
     background-position: center;
-    background-repeat: no-repeat;  
-    padding: 17px;   
-    margin-top: 30px;
-    margin-bottom: 90px;
-    border: none;
-    cursor: pointer;
+    background-repeat: no-repeat;     
 }
 
 .button-control-two {
     background: #E2F1F8;     
     background-image: url('../images/vector2.png');
     background-position: center;
-    background-repeat: no-repeat;
-    padding: 17px;
-    margin-top: 30px;
-    margin-left: 10 px;
-    margin-bottom: 90px;
-    border: none;
-    cursor: pointer;
+    background-repeat: no-repeat;    
 }
 
 .products-list p {
@@ -186,7 +180,7 @@
     width: 45%;
 }
 
-/* Delivery */
+/* delivery */
 
 .delivery {
     display: flex;    
@@ -197,10 +191,10 @@
     width: 480px;
     margin-right: 120px;
 }
+
 .delivery-list {
     display: flex;
-    flex-direction: column;  
-    
+    flex-direction: column;      
 }
 
 .delivery-list .subtitle {
@@ -228,13 +222,63 @@
     line-height: 34px;
     color: #1E0606;
 }
+
 .delivery p {
     width: 82%;
     margin-bottom: 15px;
 }
+
 .delivery-list .button {
     width: max-content;
 }
 
+/* company */
 
-   
+.company {
+    margin-bottom: 90px;
+}
+
+ .company-title {
+   font-size: 0;
+   width: 0;
+   height: 0;
+}
+
+.company-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* information */
+  
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #E1F0F7;
+    width: 543px;        
+    margin-bottom: 155px;       
+}
+
+.about p {
+    width: 90%; 
+    margin-left: 30px;
+}
+
+.about a {
+    margin-left: 30px;
+    margin-bottom: 27px;
+}
+
+.about .subtitle {
+    margin-left: 30px;
+    margin-top: -26px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;      
+    background: #E1F0F7;
+    width: 543px;    
+    margin-right: 33px;
+}
