@@ -12,20 +12,21 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/toys.css">
 </head>
 
 <body>
-    <header>
+    <header class="header container">
         <a href="index.html">
             <img src="images/logo.png" alt="logo">
         </a>
-        <nav>
-            <ul class="marker">
+        <nav class="header-menu">
+            <ul class="underline header-link">
                 <li>
-                    <a href="#">Blog</a>
+                    <a href="blog.html">Blog</a>
                 </li>
                 <li>
-                    <a href="#">Catalog</a>
+                    <a href="catalog.html">Catalog</a>
                 </li>
                 <li>
                     <a href="#">About Us</a>
@@ -36,204 +37,214 @@
         <a href="contact.html" class="contact">Contact Us</a>
     </header>
     <main>
-        <section>
-            <div>
-                <h1>Toy for kids</h1>
-                <a href="index.html">Home</a>
-                <a href="catalog.html">Catalog</a>
-                <p>Toys</p>
+        <div class="container">
+            <h1 class="title">Toy for kids</h1>
+            <div class="breadcrumbs">                
+                <a class="breadcrumbs-next" href="index.html">Home</a>
+                <a class="breadcrumbs-next" href="catalog.html">Catalog</a>
+                <p class="breadcrumbs-disable">Toys</p>
             </div>
-            <div>
-                <h2>Cost</h2>
-                <div>
-
-
+        </div>
+            
+        <section class="container">
+            <div class="choice-wrapper underline">
+                <div class="cost">
+                    <h2>Cost</h2>
+                    <div>
+    
+    
+                    </div>
+                    <p>0</p>
+                    <p>500</p>
                 </div>
-                <p>0</p>
-                <p>500</p>
+                <div>
+                    <h2>Color</h2>
+                    <ul class="color-link underline">
+                        <li>
+                            <input type="checkbox" id="input-black">
+                            <label for="input-black">Black</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="input-blue">
+                            <label for="input-blue">Blue</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="input-green">
+                            <label for="input-green">Green</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="input-white">
+                            <label for="input-white">White</label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Delivery</h2>
+                    <ul class="delivery-link underline">
+                        <li>
+                            <input type="radio" id="input-free" name="shipping">
+                            <label for="input-free">Free shipping</label>
+    
+                        </li>
+                        <li>
+                            <input type="radio" id="input-fast" name="shipping">
+                            <label for="input-fast">Fast shipping</label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Amount</h2>
+                    <ul class="amout-link underline">
+                        <li>
+                            <input type="radio" id="input-0-5" name="meaning">
+                            <label for="input-0-5">0-5</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="input-10-20" name="meaning">
+                            <label for="input-10-20">10-20</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="input-20-50" name="meaning">
+                            <label for="input-20-50">20-50</label>
+                        </li>
+                    </ul>
+                </div>
+                <button class="button" type="submit">Apply</button>
             </div>
-            <div>
-                <h2>Color</h2>
-                <ul>
-                    <li>
-                        <input type="checkbox" id="input-black">
-                        <label for="input-black">Black</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="input-blue">
-                        <label for="input-blue">Blue</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="input-green">
-                        <label for="input-green">Green</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" id="input-white">
-                        <label for="input-white">White</label>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2>Delivery</h2>
-                <ul>
-                    <li>
-                        <input type="radio" id="input-free" name="shipping">
-                        <label for="input-free">Free shipping</label>
-
-                    </li>
-                    <li>
-                        <input type="radio" id="input-fast" name="shipping">
-                        <label for="input-fast">Fast shipping</label>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2>Amount</h2>
-                <ul>
-                    <li>
-                        <input type="radio" id="input-0-5" name="meaning">
-                        <label for="input-0-5">0-5</label>
-                    </li>
-                    <li>
-                        <input type="radio" id="input-10-20" name="meaning">
-                        <label for="input-10-20">10-20</label>
-                    </li>
-                    <li>
-                        <input type="radio" id="input-20-50" name="meaning">
-                        <label for="input-20-50">20-50</label>
-                    </li>
-                </ul>
-            </div>
-            <button type="submit">Apply</button>
+           
         </section>
-        <section>
-            <ul>
+        <section class="toys-wrapper container">            
+            <ul class="toys-link underline">
                 <li>
                     <a href="#">
-                        <img src="#" alt="SHARKY BEAN BAG CHAIR COVER">
+                        <img src="images/toys/toys1.png" alt="SHARKY BEAN BAG CHAIR COVER">
                         <span>SHARKY BEAN BAG CHAIR COVER</span>
-                        <span>$60.00 USD</span>
+                        <p>$60.00 USD</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="#" alt="BRASS DECO FRAMES">
+                        <img src="images/toys/toys2.png" alt="BRASS DECO FRAMES">
                         <span>BRASS DECO FRAMES</span>
-                        <span>$66.00 USD</span>
+                        <p>$66.00 USD</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="#" alt="CIBO FULL APRON">
+                        <img src="images/toys/toys3.png" alt="CIBO FULL APRON">
                         <span>CIBO FULL APRON</span>
-                        <span>$60.00 USD</span>
+                        <p>$60.00 USD</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="#" alt="GATCHA GATCHA GUMBALL MACHINE">
+                        <img src="images/toys/toys4.png" alt="GATCHA GATCHA GUMBALL MACHINE">
                         <span>GATCHA GATCHA GUMBALL MACHINE</span>
-                        <span>$56.00 USD</span>
+                        <p>$56.00 USD</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="#" alt="CHRISTMAS ADVENT SCENTED CANDLE">
+                        <img src="images/toys/toys5.png" alt="CHRISTMAS ADVENT SCENTED CANDLE">
                         <span>CHRISTMAS ADVENT SCENTED CANDLE</span>
-                        <span>$29.00 USD</span>
+                        <p>$29.00 USD</p>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="#" alt="TANGLE SPINNING TEA LIGHT">
+                        <img src="images/toys/toys6.png" alt="TANGLE SPINNING TEA LIGHT">
                         <span>TANGLE SPINNING TEA LIGHT</span>
-                        <span>$56.00 USD</span>
+                        <p>$56.00 USD</p>
                     </a>
                 </li>
             </ul>
         </section>
-        <div>
-            <ul>
-                <li>
-                    <a href="#"><img src="#" alt="Vector-left"></a>
-                </li>
-                <li>
-                    <a href="#">1</a>
-                </li>
-                <li>
-                    <a href="#">2</a>
-                </li>
-                <li>
-                    <a href="#">3</a>
-                </li>
-                <li>
-                    <a href="#">4</a>
-                </li>
-                <li>
-                    <a href="#"><img src="#" alt="Vector-right"></a>
-                </li>
-            </ul>
+        <div class="pages-wrapper container">
+            <a class="pagination-vector-left" href="#"></a>
+            <div class="pages">
+                <ul class="pages-link underline">                
+                    <li>
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>               
+                </ul>
+            </div>            
+            <a class="pagination-vector-right" href="#"></a>
         </div>
     </main>
-    <footer class="footer">
-        <div>
-            <h3 class="header">Navigation</h3>
-            <nav>
-                <ul class="marker">
-                    <li>
-                        <a href="#">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Design Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Featured On</a>
-                    </li>
-                    <li>
-                        <a href="#">2018 Holiday Catalog</a>
-                    </li>
-                    <li>
-                        <a href="#">Shop By Designer</a>
-                    </li>
-                </ul>
-            </nav>
-            <h3 class="header">Customer Information</h3>
-            <nav>
-                <ul class="marker">
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Sale Exclusions</a>
-                    </li>
-                    <li>
-                        <a href="#">Shipping & Returns</a>
-                    </li>
-                    <li>
-                        <a href="#">Terms & Conditions</a>
-                    </li>
-                    <li>
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#">Search</a>
-                    </li>
-                </ul>
-            </nav>
+    <footer class="footer container">
+        <div class="footer-wrapper">
             <div>
-                <h3 class="header">Connect</h3>
+                <h3 class="header title-border">Navigation</h3>
+                <nav>
+                    <ul class="underline">
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Design Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Featured On</a>
+                        </li>
+                        <li>
+                            <a href="#">2018 Holiday Catalog</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop By Designer</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h3 class="header title-border ">Customer Information</h3>
+                <nav>
+                    <ul class="underline">
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Sale Exclusions</a>
+                        </li>
+                        <li>
+                            <a href="#">Shipping & Returns</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Search</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+           
+            
+            <div>
+                <h3 class="header title-border">Connect</h3>
                 <form action="index.html">
-                    <div>
+                    <div class="fond">
                         <label for="input-email-1"></label>
                         <input type="email" id="input-email-1" placeholder="Email">
-                        <button class="button-join" type="submit">Join</button>
+                        <button class="button" type="submit">Join</button>
                     </div>
-                </form>
+                </form>                
                 <nav>
-                    <ul class="marker">
+                    <ul class="footer-company underline">
                         <li>
                             <a href="#">
                                 <img src="images/messengers/facebook.png" alt="facebook">
@@ -257,10 +268,12 @@
                     </ul>
                 </nav>
             </div>
-            <div>
+        </div> 
+        
+            <div class="footer-rating button-footer">
                 <h3 class="header">Company Rating</h3>
                 <nav>
-                    <ul class="marker">
+                    <ul class="footer-star underline">
                         <li>
                             <a href="#">
                                 <img src="images/star.png" alt="star">
@@ -288,10 +301,12 @@
                         </li>
                     </ul>
                 </nav>
-                <p class="header">Copyright © 2018 Dlk • Design Life Kids</p>
-                <a href="#"> Web Design — Direct Line Development</a>
-            </div>
-    </footer>
+                <p class="footer-text header">Copyright © 2018 Dlk • Design Life Kids</p>
+                <a class="footer-star href="#"> Web Design — Direct Line Development</a>
+            </div>       
+            
+        
+     </footer>
     
 </body>
 </html>

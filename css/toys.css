@@ -1,0 +1,89 @@
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+/* choice */
+
+
+.choice-wrapper {
+    background: #7D97DA33;  
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;  
+    padding: 42px 195px 42px 50px;
+    margin-left: -50px;
+    margin-right: -50px;
+   
+}
+
+.choice-wrapper h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;  
+    color: #1E0606; 
+    margin-bottom: 15px;    
+}
+
+.cost {
+    width: 188px;
+}
+
+.amout-link {
+    display: flex;    
+}
+
+.amout-link li {
+    padding: 7px 9px 6px 19px;
+}
+
+.button {
+    margin-top: 47px;
+}
+
+
+
+/* toys */
+
+.toys-link {
+    display: flex;  
+    flex-wrap: wrap;
+    margin-top: 60px;
+   
+}
+
+.toys-link li {
+    width: 380px;  
+    margin-right: 10px;
+    margin-bottom: 10px;   
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.toys-link li:nth-child(3n) {
+    margin-right: -10px;
+}
+
+.toys-link span {    
+    font-size: 14px;
+    line-height: 19px;    
+    color: #1E0606;
+    
+}
+
+.toys-link p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;    
+    color: #1E0606;
+}
+    
+
+
+
+
+
