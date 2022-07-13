@@ -14,6 +14,7 @@ body {
     max-width: 1180px;
     margin: 0 auto;
 }
+
 a {
     text-decoration: none;
 }
@@ -28,8 +29,7 @@ a {
 .header {
     display: flex;
     align-items: center;    
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 50px;    
 }
 
 .header-link {
@@ -61,8 +61,85 @@ header .contact {
     text-transform: uppercase;
     border: none;    
     cursor: pointer;
-    padding: 9px 22px 9px 22px;
+    padding: 9px 22px 9px 22px;    
 }
+
+/* breadcrumbs */
+
+.breadcrumbs {
+    display: flex;
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.breadcrumbs a {
+    margin-right: 48px;
+}
+.breadcrumbs p {
+   margin: 0;
+}
+
+.breadcrumbs-next::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    margin-left: 22px;
+    top: 7px;   
+    background-image: url('../images/breadcrumbs.png');    
+    background-position: center; 
+    background-repeat: no-repeat;     
+}
+
+.breadcrumbs-disable {  
+    opacity: .5;
+}
+
+/* pages */
+
+.pages-wrapper {
+    margin-top: 30px;
+    margin-bottom: 54px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.pages-wrapper ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pages-link li {
+    margin-left: 64px;
+}
+
+/* vector */
+
+.pagination-vector-left, 
+.pagination-vector-right {    
+    background-image: url('../images/vector-left.svg');    
+    background-repeat: repeat;
+    background-position: center;  
+    display: block;
+    top: 0;
+    right: 0;
+    width: 17px;
+    height: 30px;   
+}   
+
+.pagination-vector-right {
+    background-image: url('../images/vector-right.svg');
+}
+
+
+/* footer */
 
 footer {
     background: #434343;
@@ -71,13 +148,12 @@ footer {
 .footer-wrapper {
     display: flex;
     justify-content: space-between;  
-    margin-right: 50px;  
-    margin-left: 50px;
-    
+    margin: 100px 110px 25px 110px;  
 }
 
 .footer-company {
-    display: flex;      
+    display: flex;   
+       
 }
 
 .footer-company li {
@@ -87,8 +163,10 @@ footer {
 .footer-rating {
     display: flex;
     justify-content: space-between;
-    margin-right: 50px;  
-    margin-left: 50px;
+    align-items: flex-start;
+    margin-right: 110px;  
+    margin-left: 110px;
+    padding: -20px;
 }
 
 .footer-star {
@@ -104,20 +182,28 @@ footer {
 
 
 footer .header {
-    color: #AAAAAA;    
+    color: #AAAAAA; 
+    font-weight: 400;   
     font-size: 16px;
     line-height: 22px;
 }
 
 footer a {
     color: #FFFFFF;
+    font-weight: 400;  
     font-size: 16px;
     line-height: 22px;    
 }
 
-.footer-text {
-  margin-right: 50px;
+.footer-text {  
   padding-right: 20px;
 }
 
-
+footer .title-border {
+    padding-bottom: 23px;
+    border-bottom: 1px solid #666666;    
+}
+footer .button-footer {
+    border-top: 1px solid #666666;
+    padding-bottom: 50px;     
+}

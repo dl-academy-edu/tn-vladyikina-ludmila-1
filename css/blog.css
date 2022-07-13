@@ -1,0 +1,44 @@
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.blog-link {
+    display: flex;  
+    flex-wrap: wrap;
+   
+}
+
+.blog-link li {
+    width: 380px;  
+    margin-right: 10px;
+    margin-bottom: 10px;
+   
+}
+
+
+.blog-link p {
+    color: #818181;
+}
+
+.blog-link h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E0606;
+    width: 80%;
+}
+
+.blog-link span {
+    display: block;
+    color: #1E0606;
+    width: 90%;
+}
+.blog-link li:nth-child(3n) {
+    margin-right: -10px;
+}

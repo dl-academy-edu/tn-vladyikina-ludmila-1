@@ -11,21 +11,22 @@
         href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@600;700&family=Open+Sans:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/common.css">    
+    <link rel="stylesheet" href="css/catalog.css"> 
 </head>
 
 <body>
-    <header>
+    <header class="header container">
         <a href="index.html">
             <img src="images/logo.png" alt="logo">
         </a>
-        <nav>
-            <ul class="marker">
+        <nav class="header-menu">
+            <ul class="underline header-link">
                 <li>
-                    <a href="#">Blog</a>
+                    <a href="blog.html">Blog</a>
                 </li>
                 <li>
-                    <a href="#">Catalog</a>
+                    <a href="catalog.html">Catalog</a>
                 </li>
                 <li>
                     <a href="#">About Us</a>
@@ -36,33 +37,38 @@
         <a href="contact.html" class="contact">Contact Us</a>
     </header>
     <main>            
-        <section>
-            <h1>Category Products</h1>
-            <a href="index.html">Home</a>
-            <p>Catalog</p>  
-            <ul>
-                <li>
-                    <a href="#">APPAREL KIDS</a>
-                </li>
-                <li>
-                    <a href="#">HOLIDAY SHOP</a>
-                </li>
-                <li>
-                    <a href="#">TOYS</a>
-                </li>
-                <li>
-                    <a href="#">ACCESSORIES</a>
-                </li>
-                <li>
-                    <a href="#">SALE</a>
-                </li>
-                <li>
-                    <a href="#">APPAREL ADULTS</a>
-                </li>
-            </ul>
+        <section class="container">
+            <h2 class="title">Category Products</h2>
+            <div class="breadcrumbs">
+                <a class="breadcrumbs-next" href="index.html">Home</a>
+                <p class="breadcrumbs-disable">Catalog</p>  
+            </div>
+            <div class="catalog">
+                <ul class="catalog-list underline">
+                    <li>
+                        <a href="#">APPAREL KIDS</a>
+                    </li>
+                    <li>
+                        <a href="#">HOLIDAY SHOP</a>
+                    </li>
+                    <li>
+                        <a href="#">TOYS</a>
+                    </li>
+                    <li>
+                        <a href="#">ACCESSORIES</a>
+                    </li>
+                    <li>
+                        <a href="#">SALE</a>
+                    </li>
+                    <li>
+                        <a href="#">APPAREL ADULTS</a>
+                    </li>
+                </ul>
+            </div>
+            
         </section>
-        <section>
-            <h2>Product Description</h2>
+        <section class="product container">
+            <h2 class="title">Product Description</h2>
             <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can
                 even bathe her, just like a little sister.</p>
             <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be
@@ -72,65 +78,71 @@
                 mistress.</p>
         </section>
     </main>
-    <footer class="footer">
-        <div>
-            <h3 class="header">Navigation</h3>
-            <nav>
-                <ul class="marker">
-                    <li>
-                        <a href="#">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Design Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Featured On</a>
-                    </li>
-                    <li>
-                        <a href="#">2018 Holiday Catalog</a>
-                    </li>
-                    <li>
-                        <a href="#">Shop By Designer</a>
-                    </li>
-                </ul>
-            </nav>
-            <h3 class="header">Customer Information</h3>
-            <nav>
-                <ul class="marker">
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Sale Exclusions</a>
-                    </li>
-                    <li>
-                        <a href="#">Shipping & Returns</a>
-                    </li>
-                    <li>
-                        <a href="#">Terms & Conditions</a>
-                    </li>
-                    <li>
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#">Search</a>
-                    </li>
-                </ul>
-            </nav>
+    <footer class="footer container">
+        <div class="footer-wrapper">
             <div>
-                <h3 class="header">Connect</h3>
+                <h3 class="header title-border">Navigation</h3>
+                <nav>
+                    <ul class="underline">
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Design Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Featured On</a>
+                        </li>
+                        <li>
+                            <a href="#">2018 Holiday Catalog</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop By Designer</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h3 class="header title-border ">Customer Information</h3>
+                <nav>
+                    <ul class="underline">
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Sale Exclusions</a>
+                        </li>
+                        <li>
+                            <a href="#">Shipping & Returns</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Search</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+           
+            
+            <div>
+                <h3 class="header title-border">Connect</h3>
                 <form action="index.html">
-                    <div>
+                    <div class="fond">
                         <label for="input-email-1"></label>
                         <input type="email" id="input-email-1" placeholder="Email">
-                        <button class="button-join" type="submit">Join</button>
+                        <button class="button" type="submit">Join</button>
                     </div>
-                </form>
+                </form>                
                 <nav>
-                    <ul class="marker">
+                    <ul class="footer-company underline">
                         <li>
                             <a href="#">
                                 <img src="images/messengers/facebook.png" alt="facebook">
@@ -154,10 +166,12 @@
                     </ul>
                 </nav>
             </div>
-            <div>
+        </div> 
+        
+            <div class="footer-rating button-footer">
                 <h3 class="header">Company Rating</h3>
                 <nav>
-                    <ul class="marker">
+                    <ul class="footer-star underline">
                         <li>
                             <a href="#">
                                 <img src="images/star.png" alt="star">
@@ -185,10 +199,13 @@
                         </li>
                     </ul>
                 </nav>
-                <p class="header">Copyright © 2018 Dlk • Design Life Kids</p>
-                <a href="#"> Web Design — Direct Line Development</a>
+                <p class="footer-text header">Copyright © 2018 Dlk • Design Life Kids</p>
+                <a class="footer-star href="#"> Web Design — Direct Line Development</a>
             </div>
-    </footer>
+        
+            
+        
+     </footer>
     
 </body>
 
