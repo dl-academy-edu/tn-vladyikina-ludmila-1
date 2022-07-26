@@ -12,13 +12,14 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header class="header container">
         <a href="index.html">
-            <img src="images/logo.png" alt="logo">
+            <img src="images/logo.png" alt="logo" width="100" height="52">
         </a>
         <nav class="header-menu">
             <ul class="underline header-link">
@@ -33,16 +34,16 @@
                 </li>
             </ul>
         </nav>
-        <a href="contact.html"><img src="images/magnifying glass.png" alt="magnifying glass"></a>
+        <a href="contact.html"><img src="images/magnifying glass.png" alt="magnifying glass" width="17" height="17"></a>
         <a href="contact.html" class="contact">Contact Us</a>
     </header>
-    <main>
-        <section class="container"> 
+    <main class="container">
+        <section> 
             <div class="wrapper">  
                 <div class="banner">                         
                     <div class="banner-number">  
                         <p class="number">01</p>                    
-                        <button class="button-banner"></button>
+                        <button class="button-banner-one"></button>
                         <button class="button-banner"></button>
                         <button class="button-banner"></button>
                         <button class="button-banner"></button>
@@ -50,16 +51,16 @@
                     <div class="banner-title">
                         <h1 class="title">THE OOH NOO COLLECTION</h1>
                         <p class="text">Designed in Slovenia</p>
-                        <a href="#" class="button">EXPLORE NOW</a>                                                     
+                        <a href="#" class="button banner-js">EXPLORE NOW</a>                                                     
                     </div>
                     <div class="image">
-                        <img src="images/monster.png" alt="monster">  
+                        <img src="images/monster.png" alt="monster" width="635" height="461">  
                     </div>  
                 </div>  
                 <p class="text-bottom">Free (continental) USA shipping on all orders of $100 USD or more!</p>
             </div>         
         </section>
-        <section class="products container">
+        <section class="products">
             <h2 class="subtitle">Category Products</h2>
             <ul class="products-list underline">
                 <li class="products-cards">
@@ -82,8 +83,8 @@
                     furniture for kids and adults.</p>
             </div>             
         </section>
-        <section class="delivery container">            
-            <img class="delivery-image" src="images/woman.jpg" alt="woman">                       
+        <section class="delivery">            
+            <img class="delivery-image" src="images/woman.jpg" alt="woman" width="480" height="559">                       
             <div class="delivery-list">
                 <h2 class="subtitle">Delivery</h2> 
                 <ul class="underline">
@@ -104,7 +105,7 @@
                     <a href="#" class="button">LEARN MORE</a>                 
             </div>                           
         </section>
-        <section class="company container">            
+        <section class="company">            
             <h2 class="company-title">Company</h2>
             <ul class="company-list underline">
                 <li>
@@ -123,7 +124,7 @@
             </div>
             
         </section>
-        <section class="information container">
+        <section class="information">
                 <div class="about">
                     <h2 class="subtitle">Design Life Kids</h2>
                     <p class="about-list">About Us</p>
@@ -135,16 +136,16 @@
                     <h2 class="subtitle">Contacts</h2>
                     <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am
                         completely shocked that four years have flown by. It's simply magical.</p>
-                    <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad805fc3b379073912f73a46a233714c4c9cce0da9f13edbffcce75bee2f27534&amp;source=constructor" width="100%" height="317" frameborder="0"></iframe>
+                    <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad805fc3b379073912f73a46a233714c4c9cce0da9f13edbffcce75bee2f27534&amp;source=constructor" width="483" height="196" frameborder="0"></iframe>
                </div>          
         </section>
     </main>
-    <footer class="footer container">
-        <div class="footer-wrapper">
+    <footer class="footer">
+        <div class="footer-wrapper container">
             <div>
                 <h3 class="header title-border">Navigation</h3>
                 <nav>
-                    <ul class="underline">
+                    <ul class="footer-link underline">
                         <li>
                             <a href="#">About Us</a>
                         </li>
@@ -169,9 +170,9 @@
             <div>
                 <h3 class="header title-border ">Customer Information</h3>
                 <nav>
-                    <ul class="underline">
+                    <ul class="footer-link underline">
                         <li>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="#">Contact Us</a>
                         </li>
                         <li>
                             <a href="#">Sale Exclusions</a>
@@ -191,111 +192,99 @@
                     </ul>
                 </nav>
             </div>
-           
-            
+                      
             <div>
                 <h3 class="header title-border">Connect</h3>
-                <form action="index.html">
-                    <div class="fond">
+                <form action="#" class="footer-form">
                         <label for="input-email-1"></label>
-                        <input type="email" id="input-email-1" placeholder="Email">
-                        <button class="button" type="submit">Join</button>
-                    </div>
+                        <input type="email" id="input-email-1" placeholder="Email" class="email">                        
+                        <button class="button-submit" type="submit" >Join</button>                    
                 </form>                
                 <nav>
                     <ul class="footer-company underline">
                         <li>
                             <a href="#">
-                                <img src="images/messengers/facebook.png" alt="facebook">
+                                <img src="images/messengers/facebook.png" alt="facebook" width="30" height="30">
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="images/messengers/twitter.png" alt="twitter">
+                                <img src="images/messengers/twitter.png" alt="twitter" width="30" height="30"> </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/messengers/pinterest.png" alt="pinterest" width="30" height="30">
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="images/messengers/pinterest.png" alt="pinterest">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/messengers/instagram.png" alt="instagram">
+                                <img src="images/messengers/instagram.png" alt="instagram" width="30" height="30">
                             </a>
                         </li>
                     </ul>
                 </nav>
             </div>
-        </div> 
-        
-            <div class="footer-rating button-footer">
-                <h3 class="header">Company Rating</h3>
-                <nav>
-                    <ul class="footer-star underline">
-                        <li>
-                            <a href="#">
-                                <img src="images/star.png" alt="star">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/star.png" alt="star">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/star.png" alt="star">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/star.png" alt="star">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/star.png" alt="star">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <p class="footer-text header">Copyright © 2018 Dlk • Design Life Kids</p>
-                <a class="footer-star href="#"> Web Design — Direct Line Development</a>
-            </div>     
-           
-        
+        </div>  
+        <div class="footer-rating container">
+            <a href="#" class="rating-company">Company Rating               
+                    <div class="simple-rating">                             
+                        <div class="simple-rating-items">                    
+                            <input id="simple-rating-5"type="radio" class="simple-rating-item" name="simple-rating" value="5" checked>
+                            <label for="simple-rating-5" class="simple-rating-label"></label>  
+                            <input id="simple-rating-4"type="radio" class="simple-rating-item" name="simple-rating" value="5">
+                            <label for="simple-rating-4" class="simple-rating-label"></label> 
+                            <input id="simple-rating-3"type="radio" class="simple-rating-item" name="simple-rating" value="5">
+                            <label for="simple-rating-3" class="simple-rating-label"></label> 
+                            <input id="simple-rating-2"type="radio" class="simple-rating-item" name="simple-rating" value="5">
+                            <label for="simple-rating-2" class="simple-rating-label"></label> 
+                            <input id="simple-rating-1"type="radio" class="simple-rating-item" name="simple-rating" value="5">
+                            <label for="simple-rating-1" class="simple-rating-label"></label>    
+                        </div>
+                       
+                    </div>
+            </a>        
+            <span class="copyright" >Copyright © 2018 Dlk • Design Life Kids</span>
+            <a class="footer-star" href="#">Web Design — Direct Line Development</a>
+        </div>               
+                
      </footer>
-    <section>
+    <section class="popup popup-open">
         <h2>Window Model</h2>
-        <form action="contact.html">
-            <div>
+        <form class="popup-form" action="#">
+            <div class="label-wrapper">
                 <label for="input-name">Name</label>
                 <input type="text" id="input-name" placeholder="Ivan Ivanov">
             </div>
-            <div>
-                <div>
+            <div class="field-2-column">
+                <div class="label-wrapper-phone">
                     <label for="input-phone">Phone</label>
                     <input type="tel" id="input-phone">
                 </div>
-                <div>
+                <div class="label-wrapper">
                     <label for="input-email">Email</label>
                     <input type="email" id="input-email">
                 </div>
             </div>
-            <div>
+            <div class="label-wrapper">
                 <label for="textarea">Message</label>
                 <textarea name="" id="textarea" cols="30" rows="10"></textarea>
             </div>
             <div>
-                <label class="">
-                    <input type="checkbox" class="" checked>
-                    <span>By clicking on the button, you consent to the processing of your personal data</span>
+                <label class="label-wrapper-consent">
+                    <input type="checkbox" class="checkbox-input" checked>
+                    <span class="checkbox-label">By clicking on the button, you consent to the processing of your personal data</span>
                 </label>
             </div>
-            <button class="button" type="submit">Submit</button>
+            <button class="button" type="submit">Submit</button>   
+            <button class="popup-close">
+                <svg aria-label="close-btn" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.21902 14.6113C1.70029 15.1295 0.893368 15.1295 0.374636 14.6113C0.11527 14.3522 -6.13512e-07 14.0355 -5.9841e-07 13.69C-5.83308e-07 13.3445 0.11527 13.0278 0.374636 12.7687L5.64841 7.5L0.374637 2.23127C0.115271 1.97215 -7.23629e-08 1.65547 -5.72611e-08 1.30998C-4.21593e-08 0.964491 0.115271 0.647806 0.374637 0.388689C0.893369 -0.129545 1.70029 -0.129545 2.21902 0.388689L7.4928 5.65738L12.7666 0.38869C13.2853 -0.129545 14.0922 -0.129545 14.611 0.38869C15.1297 0.906924 15.1297 1.71304 14.611 2.23127L9.33718 7.5L14.611 12.7687C15.1297 13.287 15.1297 14.0931 14.611 14.6113C14.0922 15.1295 13.2853 15.1295 12.7666 14.6113L7.4928 9.34258L2.21902 14.6113Z" fill="white"/>
+                </svg>
+                                          
         </form>
+        
     </section>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

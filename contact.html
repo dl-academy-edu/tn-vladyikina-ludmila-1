@@ -12,193 +12,183 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
-    <header>
+    <header class="header container">
         <a href="index.html">
-            <img src="images/logo.png" alt="logo">
+            <img src="images/logo.png" alt="logo" width="100" height="52">
         </a>
-        <nav>
-            <ul class="marker">
+        <nav class="header-menu">
+            <ul class="underline header-link">
                 <li>
-                    <a href="#">Blog</a>
+                    <a href="blog.html">Blog</a>
                 </li>
                 <li>
-                    <a href="#">Catalog</a>
+                    <a href="catalog.html">Catalog</a>
                 </li>
                 <li>
                     <a href="#">About Us</a>
                 </li>
             </ul>
         </nav>
-        <a href="contact.html"><img src="images/magnifying glass.png" alt="magnifying glass"></a>
+        <a href="contact.html"><img src="images/magnifying glass.png" alt="magnifying glass" width="17" height="17"></a>
         <a href="contact.html" class="contact">Contact Us</a>
     </header>
-    <main>
+    <main class="container">
         <section>
-            <h1>Contact Us</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <p>Contact Us</p>
-                    </li>
-                </ul>
-            </nav>
-            <form action="contact.html">
-                <div>
-                    <label for="input-name">Name</label>
-                    <input type="text" id="input-name" placeholder="Ivan Ivanov">
-                </div>
-                <div>
-                    <div>
-                        <label for="input-phone">Phone</label>
-                        <input type="tel" id="input-phone">
-                    </div>
-                    <div>
-                        <label for="input-email">Email</label>
-                        <input type="email" id="input-email">
-                    </div>
-                </div>
-                <div>
-                    <label for="textarea">Message</label>
-                    <textarea name="" id="textarea" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <label class="">
-                        <input type="checkbox" class="">
-                        <span>By clicking on the button, you consent to the processing of your personal data</span>
-                    </label>
-                </div>
-                <button class="button-send" type="submit">Submit</button>
-            </form>
-            <div>
-                <p>Our support team are on-hand to assist with any issues you are experiencing.</p>
-                <p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as
-                    possible.</p>
-                <p>An expert is waiting to help you!</p>
+            <h1 class="title">Contact Us</h1>
+            <div class="breadcrumbs">
+                <a class="breadcrumbs-next" href="index.html">Home</a>
+                <p class="breadcrumbs-disable">Contact us</p>  
             </div>
+            <div class="contact-wrapper">
+                <form class="popup-form" action="contact.html">
+                    <div class="label-wrapper">
+                        <label for="input-name">Name</label>
+                        <input type="text" id="input-name" placeholder="Ivan Ivanov">
+                    </div>
+                    <div class="field-2-column">
+                        <div class="label-wrapper-phone">
+                            <label for="input-phone">Phone</label>
+                            <input type="tel" id="input-phone">
+                        </div>
+                        <div class="label-wrapper">
+                            <label for="input-email">Email</label>
+                            <input type="email" id="input-email">
+                        </div>
+                    </div>
+                    <div class="label-wrapper">
+                        <label for="textarea">Message</label>
+                        <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label class="label-wrapper-consent">
+                            <input type="checkbox" class="checkbox-input" checked>
+                            <span class="checkbox-label">By clicking on the button, you consent to the processing of your personal data</span>
+                        </label>
+                    </div>
+                    <button class="button" type="submit">Submit</button>
+                </form>
+                <div class="help">
+                    <p>Our support team are on-hand to assist with any issues you are experiencing.</p>
+                    <p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as
+                        possible.</p>
+                    <span>An expert is waiting to help you!</span>
+                </div>
+            </div>
+            
         </section>
     </main>
     <footer class="footer">
-        <div>
-            <h3 class="header">Navigation</h3>
-            <nav>
-                <ul class="marker">
-                    <li>
-                        <a href="#">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Design Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Featured On</a>
-                    </li>
-                    <li>
-                        <a href="#">2018 Holiday Catalog</a>
-                    </li>
-                    <li>
-                        <a href="#">Shop By Designer</a>
-                    </li>
-                </ul>
-            </nav>
-            <h3 class="header">Customer Information</h3>
-            <nav>
-                <ul class="marker">
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Sale Exclusions</a>
-                    </li>
-                    <li>
-                        <a href="#">Shipping & Returns</a>
-                    </li>
-                    <li>
-                        <a href="#">Terms & Conditions</a>
-                    </li>
-                    <li>
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#">Search</a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="footer-wrapper container">
             <div>
-                <h3 class="header">Connect</h3>
-                <form action="index.html">
-                    <div>
+                <h3 class="header title-border">Navigation</h3>
+                <nav>
+                    <ul class="footer-link underline">
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Design Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Featured On</a>
+                        </li>
+                        <li>
+                            <a href="#">2018 Holiday Catalog</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop By Designer</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h3 class="header title-border ">Customer Information</h3>
+                <nav>
+                    <ul class="footer-link underline">
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Sale Exclusions</a>
+                        </li>
+                        <li>
+                            <a href="#">Shipping & Returns</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Search</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+                      
+            <div>
+                <h3 class="header title-border">Connect</h3>
+                <form action="#" class="footer-form">
                         <label for="input-email-1"></label>
-                        <input type="email" id="input-email-1" placeholder="Email">
-                        <button class="button-join" type="submit">Join</button>
+                        <input type="email" id="input-email-1" placeholder="Email" class="email">                        
+                        <button class="button-submit" type="submit" >Join</button>                    
+                </form>                
+                <nav>
+                    <ul class="footer-company underline">
+                        <li>
+                            <a href="#">
+                                <img src="images/messengers/facebook.png" alt="facebook" width="30" height="30">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/messengers/twitter.png" alt="twitter" width="30" height="30">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/messengers/pinterest.png" alt="pinterest" width="30" height="30">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/messengers/instagram.png" alt="instagram" width="30" height="30">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>  
+        <div class="footer-rating container">
+            <a href="#" class="rating-company">Company Rating               
+                    <div class="simple-rating">                             
+                        <div class="simple-rating-items">                    
+                            <input id="simple-rating-5"type="radio" class="simple-rating-item" name="simple-rating" value="5" checked>
+                            <label for="simple-rating-5" class="simple-rating-label"></label>  
+                            <input id="simple-rating-4"type="radio" class="simple-rating-item" name="simple-rating" value="5">
+                            <label for="simple-rating-4" class="simple-rating-label"></label> 
+                            <input id="simple-rating-3"type="radio" class="simple-rating-item" name="simple-rating" value="5">
+                            <label for="simple-rating-3" class="simple-rating-label"></label> 
+                            <input id="simple-rating-2"type="radio" class="simple-rating-item" name="simple-rating" value="5">
+                            <label for="simple-rating-2" class="simple-rating-label"></label> 
+                            <input id="simple-rating-1"type="radio" class="simple-rating-item" name="simple-rating" value="5">
+                            <label for="simple-rating-1" class="simple-rating-label"></label>    
+                        </div>
+                       
                     </div>
-                </form>
-                <nav>
-                    <ul class="marker">
-                        <li>
-                            <a href="#">
-                                <img src="images/messengers/facebook.png" alt="facebook">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/messengers/twitter.png" alt="twitter">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/messengers/pinterest.png" alt="pinterest">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/messengers/instagram.png" alt="instagram">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div>
-                <h3 class="header">Company Rating</h3>
-                <nav>
-                    <ul class="marker">
-                        <li>
-                            <a href="#">
-                                <img src="images/star.png" alt="star">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/star.png" alt="star">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/star.png" alt="star">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/star.png" alt="star">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/star.png" alt="star">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <p class="header">Copyright © 2018 Dlk • Design Life Kids</p>
-                <a href="#"> Web Design — Direct Line Development</a>
-            </div>
-    </footer>
+            </a>        
+            <span class="copyright" >Copyright © 2018 Dlk • Design Life Kids</span>
+            <a class="footer-star" href="#">Web Design — Direct Line Development</a>
+        </div>               
+                
+     </footer>
 </body>
 </html>
