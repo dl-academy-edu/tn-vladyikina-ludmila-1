@@ -17,7 +17,7 @@ popupClose.addEventListener('click', function() {
 })
 
 window.addEventListener('keydown', function (event) {
-if (event.code === "Escape"){
+if (event.code === "Escape" && popup.classList.contains('popup-open')){
     popup.classList.remove('popup-open');
     popupBtn.focus();
 }

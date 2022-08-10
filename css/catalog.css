@@ -1,10 +1,12 @@
 .title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Arial', sans-serif;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 40px;
     line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
+    margin-top: 57px;
+    margin-bottom: 15px;
 }
 
 .catalog {
@@ -24,7 +26,7 @@
 }
 .catalog-list a {
     display: block;
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Montserrat', 'Arial', sans-serif;    
     font-weight: 700;
     font-size: 26px;
     line-height: 32px;
@@ -57,14 +59,30 @@
     background: #F8F2DA;    
     background-image: url('../images/products/image3.png');
     background-position: center;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;    
+   
 }
+.list-toys,
+.list-sale {
+    margin-top: 20px;
+}
+
+.list-accessories {
+    margin-left: -30px;
+    margin-top: 19px;
+}
+
+.list-apparel {
+    margin-top: 3px;
+    margin-left: -4px;
+}
+
 .catalog-list li:nth-child(4) {
     background: #D5D4E1; 
     background-image: url('../images/products/image4.png');
     background-position: center;
     background-repeat: no-repeat;  
-    margin-left: 150px; 
+    margin-left: 200px; 
 }
 .catalog-list li:nth-child(5) {
     background: #F3D0DB; 
@@ -81,9 +99,29 @@
     background-repeat: no-repeat;    
 }
 
-.product {
-    width: 70%;    
-    padding-left: 140px;    
+.product {    
+    padding-left: 200px;
     margin-top: -22px;
     margin-bottom: 55px;
+}
+
+.product-title {
+    font-family: 'Montserrat','Arial', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-top: 55px;
+}
+
+.product p {
+    font-family: 'Open Sans', 'Arial', sans-serif;    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;    
+    margin-top: -7px;
+    width: 69%;
+    margin-bottom: 22px;
 }

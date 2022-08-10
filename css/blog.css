@@ -1,10 +1,12 @@
 .title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Arial', sans-serif;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 40px;
     line-height: 46px;
     text-transform: uppercase;
     color: #1E0606;
+    margin-top: 57px;
+    margin-bottom: 15px;
 }
 
 .blog-link {
@@ -15,7 +17,7 @@
 
 .blog-link li {
     width: 380px;  
-    margin-right: 10px;
+    margin-right: 19px;
     margin-bottom: 10px;
    
 }
@@ -23,15 +25,19 @@
 
 .blog-link p {
     color: #818181;
+    margin-left: 3px;
+    margin-bottom: -14px;
 }
 
 .blog-link h2 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Arial', sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
     color: #1E0606;
-    width: 80%;
+    width: 93%;
+    margin-left: 3px;
+    margin-bottom: 17px;
 }
 
 .blog-link h2:hover,
@@ -43,8 +49,17 @@
 .blog-link span {
     display: block;
     color: #1E0606;
-    width: 90%;
+    width: 100%;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1E0606;
+    margin-left: 3px;
+    margin-bottom: 20px;
 }
+
+
 .blog-link li:nth-child(3n) {
     margin-right: -10px;
 }
